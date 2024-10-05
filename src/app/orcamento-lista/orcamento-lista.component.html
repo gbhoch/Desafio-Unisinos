@@ -1,0 +1,6 @@
+<h2>Orçamentos Enviados</h2>
+<ul>
+  <li *ngFor="let orcamento of orcamentos">
+    <strong>{{ orcamento.nome }}</strong>: {{ orcamento.descricao }} - R$ {{ orcamento.valor }}
+  </li>
+</ul>

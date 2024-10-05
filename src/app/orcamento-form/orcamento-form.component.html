@@ -1,0 +1,15 @@
+<mat-form-field appearance="fill">
+    <mat-label>Nome</mat-label>
+    <input matInput [(ngModel)]="nome" name="nome" required />
+  </mat-form-field>
+  
+  <mat-form-field appearance="fill">
+    <mat-label>Descrição</mat-label>
+    <textarea matInput [(ngModel)]="descricao" name="descricao" required></textarea>
+  </mat-form-field>
+  
+  <mat-form-field appearance="fill">
+    <mat-label>Valor</mat-label>
+    <input matInput type="number" [(ngModel)]="valor" name="valor" required />
+  </mat-form-field>
+  
